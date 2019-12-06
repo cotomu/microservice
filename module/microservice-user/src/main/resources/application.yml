@@ -1,0 +1,15 @@
+
+# 注册到 eureka server 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8088/eureka/
+server:
+  port: 8086
+
+#feign:
+#  hystrix:
+#    enabled: true
+spring:
+  application:
+    name: microservice-user

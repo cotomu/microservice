@@ -1,0 +1,13 @@
+package tomu.cloud.microservice_ticket;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MicroserviceTicketApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

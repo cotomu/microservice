@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common_gateway" />
+        <module name="eureka_server" />
+        <module name="common_zuul" />
+        <module name="eureka_client" />
+        <module name="microservice-ticket" />
+        <module name="microservice-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common_gateway" options="-parameters" />
+      <module name="common_zuul" options="-parameters" />
+      <module name="eureka_client" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="microservice-ticket" options="-parameters" />
+      <module name="microservice-user" options="-parameters" />
+    </option>
+  </component>
+</project>

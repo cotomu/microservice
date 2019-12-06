@@ -1,0 +1,17 @@
+# 注册到 eureka server 配置
+eureka:
+  instance:
+    hostname: localhost
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+  client:
+    service-url:
+      defaultZone: http://localhost:8088/eureka/
+server:
+  port: 8082
+feign:
+  hystrix:
+    enable: true
+spring:
+  application:
+    name: eurekaclient
